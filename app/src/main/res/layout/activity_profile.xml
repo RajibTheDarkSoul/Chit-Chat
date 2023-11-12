@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/backgroundchat10">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/SignUpprofilePicProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/profile_logo1" />
+
+    <TextView
+        android:id="@+id/textViewTap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tap to Photo to Update Profile"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/UserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:hint="  Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:textColor="#F4F3F3"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/UpdateButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+
+
+        android:backgroundTint="#611C1919"
+        android:text="Update"
+        android:textColor="#F4F1F1"
+        app:cornerRadius="15dp"
+        app:rippleColor="#554E4E"
+        app:strokeColor="#F3EBEB"
+        app:strokeWidth="2dp" />
+
+</LinearLayout>

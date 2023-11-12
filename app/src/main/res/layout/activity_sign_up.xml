@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundchat9">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/SignUpprofilePic"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/profile_logo1" />
+
+    <EditText
+        android:id="@+id/signupEMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:hint="  Email"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:textColor="#F4F3F3"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:hint="  Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:textColor="#F4F3F3"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:id="@+id/signUpUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:hint="  Username"
+        android:inputType="textPersonName"
+        android:paddingLeft="8dp"
+        android:textColor="#F4F3F3"
+        android:textColorHint="@color/white" />
+
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+
+
+        android:backgroundTint="#611C1919"
+        android:text="Sign up"
+        android:textColor="#F4F1F1"
+        app:cornerRadius="15dp"
+        app:rippleColor="#554E4E"
+        app:strokeColor="#F3EBEB"
+        app:strokeWidth="2dp" />
+
+
+
+
+</LinearLayout>

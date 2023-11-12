@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backgroundchat11"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".MyLoginActivity">
+
+    <ImageView
+        android:layout_width="186dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/chat_logo6"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="30dp">
+
+    </ImageView>
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:hint="    Email
+"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+
+
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="70dp"
+
+        tools:layout_editor_absoluteY="278dp" />
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:hint="    Password
+"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+
+
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteX="70dp"
+
+        tools:layout_editor_absoluteY="369dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+
+
+        android:backgroundTint="#611C1919"
+        android:text="Sign In"
+        android:textColor="#F4EDED"
+        app:cornerRadius="15dp"
+        app:rippleColor="#554E4E"
+        app:strokeColor="#F3EBEB"
+        app:strokeWidth="2dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/buttonForget"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:shadowColor="#201D1D"
+            android:text="Forgot Password?"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle=""
+            tools:layout_editor_absoluteX="259dp"
+            tools:layout_editor_absoluteY="552dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/OR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="-----------OR-----------"
+        android:textColor="#F3EFEF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+
+
+        android:backgroundTint="#612C2A2A"
+        android:text="sign up"
+        android:textColor="#FBF6F6"
+        app:cornerRadius="15dp"
+        app:rippleColor="#554E4E"
+        app:strokeColor="#F3EBEB"
+        app:strokeWidth="2dp" />
+
+
+</LinearLayout>

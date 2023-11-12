@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/backgroundchat4"
+    tools:context=".forgetActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="256dp"
+        android:layout_height="216dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="35dp"
+        app:srcCompat="@drawable/forgot_password_logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:typeface="sans"
+        android:textStyle="bold|italic"
+        android:textColor="#D8D7D7"
+        android:textSize="40sp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:ems="10"
+        android:backgroundTint="#05DCDC"
+        android:layout_marginTop="70dp"
+        android:hint="    Email
+"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+ />
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+
+
+        android:backgroundTint="#8D113E57"
+        android:text="Reset"
+        app:cornerRadius="15dp"
+        app:rippleColor="#554E4E"
+        app:strokeColor="#F3EBEB"
+        app:strokeWidth="2dp" />
+
+
+
+
+</LinearLayout>
